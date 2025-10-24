@@ -1,0 +1,143 @@
+# ================================
+# ARCHIVOS Y CARPETAS DE ENTORNOS
+# ================================
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.env/
+.ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de entorno (variables secretas)
+*.env
+.env.local
+.env.*
+!env.example
+
+# ================================
+# CONFIGURACIONES DEL SISTEMA / IDE
+# ================================
+# VS Code
+.vscode/
+.history/
+.settings/
+.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# MacOS / Windows / Linux
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# ARCHIVOS DE COMPILACIÓN Y BUILD
+# ================================
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.manifest
+*.spec
+pip-wheel-metadata/
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+.mypy_cache/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.pot
+
+# ================================
+# ARCHIVOS TEMPORALES Y BACKUPS
+# ================================
+*.bak
+*.tmp
+*.swp
+*.swo
+*.log
+*.out
+*.pid
+
+# ================================
+# ARCHIVOS DE DOCUMENTOS / EXPORTES
+# ================================
+# Documentos de usuario o resultados que no deben subirse
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.csv
+*.ods
+*.odt
+*.rtf
+*.ppt
+*.pptx
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# ================================
+# BASES DE DATOS LOCALES
+# ================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ================================
+# NOTEBOOKS Y DATOS GRANDES
+# ================================
+*.ipynb_checkpoints
+data/
+datasets/
+notebooks/
+output/
+results/
+logs/
+tmp/
+
+# ================================
+# ARCHIVOS DE DEPLOY O CI/CD
+# ================================
+# Archivos temporales o sensibles en despliegues
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.jks
+*.keystore
+
+# ================================
+# NODE / FRONTEND (si aplica)
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# ================================
+# OTROS
+# ================================
+# Archivos de configuración local
+local_settings.py
+config_local.py
+secrets.json
+credentials.json
